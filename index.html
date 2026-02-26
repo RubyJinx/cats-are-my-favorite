@@ -1,132 +1,200 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Cats, Always</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cats & Cozy Magic</title>
+  <meta name="description" content="A pink, white, and silver cat-love website with elegant princess vibes." />
 
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Nunito:wght@400;600;700&display=swap"
-    rel="stylesheet"
-  >
+  <!-- Princess-style script + clean readable body font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;600&display=swap" rel="stylesheet" />
 
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-  <!-- Paw + sparkle layers (pure CSS) -->
-  <div class="paw-wallpaper" aria-hidden="true"></div>
-  <div class="sparkles" aria-hidden="true"></div>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="hero">
-    <div class="container">
-      <p class="kicker">soft cottagecore • lifelong favorite</p>
-      <h1>Cats, Always</h1>
-      <p class="subhead">
-        Quiet companionship, subtle affection, and that “chosen closeness” that makes a cat’s love feel extra special.
-      </p>
-
-      <div class="hero-card fade-up">
-        <p>
-          I’ve loved cats for as long as I can remember. Since childhood, I’ve always had at least two cats—so most of
-          my earliest attachments come from cuddling them, caring for them, and learning how comforting their presence
-          can be.
-        </p>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <p class="sparkle" aria-hidden="true">✦ ✧ ✦</p>
+        <h1 class="brand-title">Cats, Always</h1>
+        <p class="tagline">Soft companionship. Quiet love. Lifelong magic.</p>
       </div>
+
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#story">My Story</a>
+        <a href="#why">Why Cats</a>
+        <a href="#favorites">Favorite Things</a>
+        <a href="#care">Care Basics</a>
+      </nav>
     </div>
   </header>
 
-  <main class="container">
-    <section class="grid">
-      <article class="card fade-up" style="--d: 0.00s;">
-        <h2>Part of My Whole Life</h2>
-        <p>
-          Cats have been a constant in my life from the beginning. They’re woven into my routines and memories—feeding
-          them, playing with them, and feeling that steady calm that comes from sharing a space with a gentle creature.
-        </p>
-      </article>
+  <main id="main">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-card">
+          <h2 class="hero-title">A lifetime of purrs and peace</h2>
+          <p class="hero-text">
+            Cats have been part of my entire life. Since childhood, I’ve always had at least two cats,
+            so most of my attachments come from my earliest memories of cuddling and caring for them.
+          </p>
+          <div class="hero-buttons">
+            <a class="btn primary" href="#story">Read my story</a>
+            <a class="btn ghost" href="#care">Cat care basics</a>
+          </div>
+        </div>
 
-      <article class="card fade-up" style="--d: 0.05s;">
-        <h2>My Childhood Companions</h2>
-        <p>
-          When my sister stayed home to babysit me, she was usually busy with schoolwork. My cats kept me company and
-          made the house feel safe. Even on quiet days, they were there—like living comfort.
-        </p>
-      </article>
-
-      <article class="card fade-up" style="--d: 0.10s;">
-        <h2>Why People Appreciate Cats</h2>
-        <ul class="bullets">
-          <li><strong>Quiet companionship:</strong> they’re present without demanding constant attention.</li>
-          <li><strong>Subtle affection:</strong> slow blinks, head bumps, and cozy “I choose you” cuddles.</li>
-          <li><strong>Unique personalities:</strong> every cat has their own tiny rituals and quirks.</li>
-          <li><strong>Comfort in hard moments:</strong> their calm presence can feel grounding and steady.</li>
-        </ul>
-      </article>
-
-      <article class="card fade-up" style="--d: 0.15s;">
-        <h2>Chosen Closeness</h2>
-        <p>
-          Cats are independent, but when they come close on their own terms, it feels meaningful. Their softness, calm
-          beauty, and purring turn everyday life into something warmer.
-        </p>
-      </article>
-    </section>
-
-    <section class="gallery">
-      <div class="section-head fade-up" style="--d: 0.10s;">
-        <h2>Little Moments, Big Comfort</h2>
-        <p class="muted">
-          A few cottagecore-ish cat vibes (these load from the internet, so no uploads needed).
-        </p>
-      </div>
-
-      <div class="gallery-grid">
-        <figure class="photo-card fade-up" style="--d: 0.05s;">
-          <img
-            src="https://source.unsplash.com/7ZZq6r_j5X4/900x700"
-            alt="A fluffy cat relaxing by a window"
-            loading="lazy"
-          />
-          <figcaption>Window naps + soft light</figcaption>
-        </figure>
-
-        <figure class="photo-card fade-up" style="--d: 0.10s;">
-          <img
-            src="https://source.unsplash.com/_8bwIH_N0YQ/900x700"
-            alt="A cat sitting on a windowsill looking outside"
-            loading="lazy"
-          />
-          <figcaption>Quiet companionship</figcaption>
-        </figure>
-
-        <figure class="photo-card fade-up" style="--d: 0.15s;">
-          <img
-            src="https://source.unsplash.com/Ax_4HOvQno4/900x700"
-            alt="A cat sitting on a windowsill"
-            loading="lazy"
-          />
-          <figcaption>Chosen closeness</figcaption>
-        </figure>
+        <div class="hero-aside" aria-label="Cat facts">
+          <div class="stat">
+            <p class="stat-number">2+</p>
+            <p class="stat-label">Cats in my home</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">∞</p>
+            <p class="stat-label">Soft moments</p>
+          </div>
+          <div class="stat">
+            <p class="stat-number">♡</p>
+            <p class="stat-label">Chosen closeness</p>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section class="quote fade-up" style="--d: 0.10s;">
-      <h2>A tiny reminder</h2>
-      <blockquote>
-        “Their independence is part of the magic — but the closeness they choose is what makes it unforgettable.”
-      </blockquote>
+    <section id="story" class="section">
+      <div class="container">
+        <h2 class="section-title">My Story</h2>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>Since Childhood</h3>
+            <p>
+              Cats have been a part of my earliest memories. I remember learning gentleness through
+              feeding them, brushing their fur, and holding them when they wanted comfort.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>My Quiet Companions</h3>
+            <p>
+              When my sister stayed home to babysit me, she was usually busy with schoolwork — so my cats
+              kept me company. They made ordinary moments feel safe, calm, and warm.
+            </p>
+          </article>
+        </div>
+
+        <article class="card wide">
+          <h3>What Their Love Feels Like</h3>
+          <p>
+            Cats are independent, but when they choose you, it’s special. Their softness, purring,
+            and calm beauty add simple but powerful joy to everyday life — especially during hard moments.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <footer class="footer">
-      <p>Made for a GitHub Pages assignment • soft cottagecore edition 🌸🐾</p>
-      <p class="tiny">
-        Photo sources: Unsplash (loaded via source URLs).
-      </p>
-    </footer>
+    <section id="why" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Why People Love Cats</h2>
+
+        <div class="grid three">
+          <article class="card">
+            <h3>Quiet Companionship</h3>
+            <p>They stay near you without demanding constant attention, like peaceful little guardians.</p>
+          </article>
+
+          <article class="card">
+            <h3>Unique Personalities</h3>
+            <p>Each cat has their own style: dramatic, shy, goofy, regal, or secretly clingy.</p>
+          </article>
+
+          <article class="card">
+            <h3>Chosen Closeness</h3>
+            <p>Their independence makes affection feel earned — and that makes it even sweeter.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="favorites" class="section">
+      <div class="container">
+        <h2 class="section-title">Favorite Cat Things</h2>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>The Purr</h3>
+            <p>It’s the smallest sound that can calm a whole nervous system. Instant comfort.</p>
+          </article>
+
+          <article class="card">
+            <h3>The Slow Blink</h3>
+            <p>That tiny moment of trust. Like they’re saying, “You’re safe with me.”</p>
+          </article>
+
+          <article class="card">
+            <h3>Soft Little Rituals</h3>
+            <p>Feeding time, cozy naps, brushing, window-watching — everyday life becomes gentler.</p>
+          </article>
+
+          <article class="card">
+            <h3>Elegant Chaos</h3>
+            <p>One second: graceful princess. Next second: sprinting like a cartoon. Iconic.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="care" class="section alt">
+      <div class="container">
+        <h2 class="section-title">Care Basics</h2>
+
+        <div class="grid two">
+          <article class="card">
+            <h3>Comfort + Safety</h3>
+            <ul class="pretty-list">
+              <li>Fresh water every day</li>
+              <li>Clean litter box (daily scoop is magic)</li>
+              <li>Cozy sleeping spots and hiding places</li>
+              <li>Gentle playtime for enrichment</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Healthy Habits</h3>
+            <ul class="pretty-list">
+              <li>Regular vet visits and vaccines</li>
+              <li>Brush if they like it (slow + patient)</li>
+              <li>Watch for appetite or behavior changes</li>
+              <li>Respect boundaries — affection is best when it’s chosen</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="callout">
+          <p class="callout-title">Princess Tip ✧</p>
+          <p>
+            If you want this to feel even more personal, add a “Meet My Cats” section with names,
+            a few photos, and one quirky personality fact for each.
+          </p>
+        </div>
+      </div>
+    </section>
   </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-script">Made with love, sparkle, and cat hair ✦</p>
+      <p class="footer-small">© <span id="year"></span> Cats, Always</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
